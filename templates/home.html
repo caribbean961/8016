@@ -1,0 +1,256 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Corporate Site{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="hero">
+    <div class="hero-image">
+        <img src="/static/img/main1.png" alt="hero-image">
+    </div>
+    <div class="overlay">
+        <img src="/static/img/main2.png" alt="hero-image">
+    </div>
+    <div class="hero-text">
+      <h1>これからの日本に必要なのは、<br>「人が減っても回る経営」。</h1>
+      <p>コンサルティング・職業紹介・BPOを通じて、<br>組織の“変化適応力”を高める支援を行います。</p>
+    </div>
+  </div>
+
+  <!-- News Section -->
+  <div class="news-section container">
+    <!-- Left Column -->
+    <div class="news-left">
+      <p class="home-section-title">News</p>
+      <div class="category-label">お知らせ</div>
+      <button class="cta-button">お知らせ</button>
+    </div>
+
+    <!-- Right Column -->
+    <div class="news-right">
+      <!-- News Item -->
+      <div class="news-item">
+        <div class="news-meta">
+          2025.06.11
+          <span class="news-tag">お知らせ</span>
+        </div>
+        <div class="news-text">ここに見出し文字テキストテキストテキストテキストテキストが入ります。</div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-meta">
+          2025.06.11
+          <span class="news-tag">お知らせ</span>
+        </div>
+        <div class="news-text">ここに見出し文字テキストテキストテキストテキストテキストが入ります。</div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-meta">
+          2025.06.11
+          <span class="news-tag">お知らせ</span>
+        </div>
+        <div class="news-text">ここに見出し文字テキストテキストテキストテキストテキストが入ります。</div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-meta">
+          2025.06.11
+          <span class="news-tag">お知らせ</span>
+        </div>
+        <div class="news-text">ここに見出し文字テキストテキストテキストテキストテキストが入ります。</div>
+      </div>
+    </div>
+  </div>
+
+    <!-- About Section -->
+    <div class="about-section container">
+    <!-- Left Column -->
+        <div class="about-left">
+        <p class="home-section-title">About Us</p>
+        <div class="category-label">私たちについて</div>
+        <div class="logo">
+            <img src="/static/img/about-logo.png" alt="about-logo">
+        </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="about-right">
+            <p class="about-title">
+                業務トランスフォーメーションの実行支援を通じてお客様とより良い未来の実現を達成します。
+            </p>
+            <p class="about-text">
+                我々はコンサルティングファームの助言だけの支援、IT企業のようにシステムを導入しただけの支援にとどまらず、根本問題の解決を追及します。<br><br>
+                多くのお客様にて高額な費用を払ったのにも関わらず、活用しきれず無駄になってしまうケースを多く見てきました。こういった状態を問題だと捉え、本当の問題解決の実現を目指します。
+            </p>
+            <button class="cta-button">企業情報</button>
+        </div>
+    </div>
+
+    <!-- business-section -->
+    <section class="business-section">
+        <div class="business-label">BUSINESS</div>
+        <p class="business-title">本質的な経営課題に対して、業務効率・生産性を最大化するための支援を行います。</p>
+        <p class="business-text">経営課題の本質に向き合い、業務改善と実務支援を通じて、効率と成果を最大化。<br />企業・NPO法人の現場に寄り添う、実行力のある支援を提供します。</p>
+      </section>
+
+    <!-- sidebar-section -->
+    <div class="sidebar-section container">
+        <div class="sidebar">
+            <p class="home-section-title">Business</p>
+            <div class="category-label">業務内容</div>
+            <button class="cta-button">詳しく見る</button>
+          </div>
+        
+          <div class="content">
+            <div class="business-item">
+                <img src="/static/img/business-item-1.jpg" alt="Consulting">
+                <div class="business-item-description">
+                    <div class="business-item-title">
+                        <div class="home-number">01</div>
+                        <h3>経営コンサルティング事業</h3>
+                    </div>
+                    <div class="business-item-text">
+                        <p>DX・BPR・業務改善による経営効率の改善 調達関連のコストモデルの作成/コンプライアンス順守の仕組みづくり 中小企業向けの経営コンサルティング オーケストラ型スポットコンサルティングサービス</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="business-item">
+                <img src="/static/img/business-item-2.jpg" alt="Consulting">
+                <div class="business-item-description">
+                    <div class="business-item-title">
+                        <div class="home-number">02</div>
+                        <h3>有料求人紹介事業</h3>
+                    </div>
+                    <div class="business-item-text">
+                        <p>キャリア形成支援 転職支援</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="business-item">
+                <img src="/static/img/business-item-3.jpg" alt="Consulting">
+                <div class="business-item-description">
+                    <div class="business-item-title">
+                        <div class="home-number">03</div>
+                        <h3>BPO</h3>
+                    </div>
+                    <div class="business-item-text">
+                        <p>コンサルティング会社が提供する、“一歩先”のBPO<br /> 
+                            業務効率化だけでなく、根本的な業務設計の見直しまで支援。<br /> 
+                            NPO法人や中小企業の実態に寄り添い、現場目線で課題を解決するBPOサービス</p>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+        </div>
+
+    <!-- Case-section -->
+    <div class="case-section container">
+        <div class="case-home-header">
+            <div class="case-home-left">
+                <p class="home-section-title">Case</p>
+                <div class="sub-title">◆ 支援事例</div>
+            </div>
+            <div class="case-home-right">
+                <a href="#" class="btn">支援事例 →</a>
+            </div>
+        </div>
+        <div class="case-home-container">
+            <div class="case-home-card">
+                <img src="/static/img/case-1.jpg" alt="Coding">
+                <div class="tag">開発系</div>
+                <div class="case-home-title">日系大手重工業の業務システム更新に関するPRE要件定義</div>
+                <div class="case-home-desc">利益率を改善するために社内業務システムの刷新検討。特殊業務プロセスやSaaS製品を導入できない状況、社内体制が複雑な状況で 各ステイクホルダーにヒアリングしながら、要件を整理</div>
+            </div>
+            <div class="case-home-card">
+                <img src="/static/img/case-2.jpg" alt="Shopping">
+                <div class="tag">開発系</div>
+                <div class="case-home-title">日系独立系 SI社内購買システム導入要件定義PJ</div>
+                <div class="case-home-desc">ビジネスプロセスに照らし合わせ、数多くある製品の中から1つの製品を選定するPJにて、PMを補佐する役割でチームをリード。 参画時、確認すべき事項が曖昧で判断にできない状況の中、状況の整理及び指針の整理を行うことで論点の整理。同時にチームメンバー には情報の取得などを協力いたたくことで無事選定製品の絞り込みに成功</div>
+            </div>
+            <div class="case-home-card">
+                <img src="/static/img/case-3.png" alt="Printing">
+                <div class="tag">事務系</div>
+                <div class="case-home-title">日系大手印刷会社–補助金事務局設営支援</div>
+                <div class="case-home-desc">事務局設営におけるPJスコープの確認、WBSの設定などを支援。WBSの整理を主に支援し、タスクの洗い出しに貢献。およびにコスト 管理プロセスの構築およびにマクロの開発を行い、業務効率化を実現</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Company-section -->
+    <div class="company-section container">
+        <div class="company-left">
+            <div class="company-header">
+                <p class="home-section-title">Company</p>
+                <div class="sub-title">◆ 支援事例</div>
+            </div>
+            <div class="company-footer">
+                <hr>
+                <div class="footer-row">
+                    <p>経営理念</p>
+                    <p>詳しく見る →</p>
+                </div>
+                <hr>
+                <div class="footer-row">
+                    <p>会社概要</p>
+                    <p>詳しく見る →</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="company-right">
+            <img src="/static/img/company-back.jpg" alt="Company Logo">
+        </div>
+    </div>
+
+    <!-- Recruit-section -->
+    <div class="recruit-section container">
+        <div class="text-section">
+            <div class="text-header">
+                <h1>Recruit</h1>
+                <p>◆ 採用情報</p>
+            </div>
+            <div class="text-content">
+                <p class="text-title">
+                    現場に寄り添い、社会を支える仕組みをつくる。
+                </p>
+                <p class="text">
+                    たちは、業務改善のその先まで見据え、企業やNPOを支えるプロフェッショナルチームです。<br>
+                    ともに“実行できる支援”を届けてくれる仲間を募集しています。
+                </p>
+            </div>
+          </div>
+          <div class="image-section">
+            <div class="group1">
+                <img src="/static/img/recruit-1.jpg" alt="image1">
+                <img src="/static/img/recruit-2.jpg" alt="image1">
+                <img src="/static/img/recruit-3.jpg" alt="image1">
+            </div>
+            <div class="group2">
+                <img src="/static/img/recruit-4.jpg" alt="image2">
+                <img src="/static/img/recruit-3.jpg" alt="image2">
+            </div>
+          </div>
+    </div>
+{% endblock %}
+
+{% block contact %}
+    <!-- Contact-section -->
+    <section class="contact-section">
+        <div class="contact-container container">
+            <div class="contact-left">
+                <div class="contact-title">Contact</div>
+                <div class="contact-text">
+                「現場の“困った”を、まず聞かせてください。」<br>
+                私たちは、企業・NPO法人のあらゆる業務課題に寄り添い、最適な仕組みと支援体制を一緒に考えます。
+                </div>
+            </div>
+            <div class="contact-right">
+                <a href="#" class="contact-button">お問い合わせフォーム</a>
+            </div>
+        </div>
+    </section>
+{% endblock %}

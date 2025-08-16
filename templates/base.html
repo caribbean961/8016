@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Corporate Site{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/header.css">
+    <link rel="stylesheet" href="/static/css/consulting.css">
+    <link rel="stylesheet" href="/static/css/career.css">
+    <link rel="stylesheet" href="/static/css/bpo.css">
+    <link rel="stylesheet" href="/static/css/bpo-detail.css">
+    <link rel="stylesheet" href="/static/css/case.css">
+    <link rel="stylesheet" href="/static/css/case-detail.css">
+    <link rel="stylesheet" href="/static/css/cultivation.css">
+    <link rel="stylesheet" href="/static/css/product-detail.css">
+    <link rel="stylesheet" href="/static/css/company.css">
+    <link rel="stylesheet" href="/static/css/recruit.css">
+    <link rel="stylesheet" href="/static/css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+<div class="navbar">
+    <a class="header-logo" href="/">
+        <img src="/static/img/logo.png" style="width: 154px; height: 28px;" alt="Xrosspoint Logo">
+    </a>
+    <div class="nav-links">
+      <a href="/consulting" class="{% if request.path == '/consulting/' %}contact-btn{% endif %}">コンサルティング事業</a>
+      <a href="/career" class="{% if request.path == '/career/' %}contact-btn{% endif %}">職業紹介事業</a>
+      <a href="/bpo" class="{% if request.path == '/bpo/' or request.path == '/bpo-detail/' %}contact-btn{% endif %}">BPO事業</a>
+      <a href="/case" class="{% if request.path == '/case/' %}contact-btn{% endif %}">支援事例</a>
+      <a href="/company" class="{% if request.path == '/company/' %}contact-btn{% endif %}">会社案内</a>
+      <a href="/recruit" class="{% if request.path == '/recruit/' %}contact-btn{% endif %}">採用情報</a>
+      <a href="/contact" class="{% if request.path == '/contact/' %}contact-btn{% endif %}">CONTACT</a>
+    </div>
+  </div>
+  {% block content %}
+
+  {% endblock %}
+
+  {% block contact %}
+  
+  {% endblock %}
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-row">
+                <div class="footer-logo">
+                    <img src="/static/img/footer-logo.png" alt="logo">
+                    <p>東京都多摩市永山1-15-2</p>
+                </div>
+                <div class="footer-lists">
+                    <div class="footer-list">
+                        <div class="list-title">
+                            <p>コンサルティング事業</p>
+                        </div>
+                            <div class="list-items">
+                                <a href="">よくある誤解と構造</a>   
+                                <a href="">実際の支援スタイル</a>
+                                <a href="">実績一例</a>
+                                <a href="">紹介最後の一言</a>
+                        </div>
+                    </div>
+                    <div class="footer-list">
+                        <div class="list-title">
+                            <p>コンサルティング事業</p>
+                        </div>
+                            <div class="list-items">
+                                <a href="">サービス特</a>   
+                                <a href="">マッチングフロー</a>
+                                <a href="">求職者支援</a>
+                                <a href="">職務経歴書添削へのこだわり</a>
+                                <a href="">企業向け実績紹介</a>
+                                <a href="">よくある質問</a>
+                        </div>
+                    </div>
+                    <div class="footer-list">
+                        <div class="list-title">
+                            <p>BPO事業</p>
+                        </div>
+                            <div class="list-items">
+                                <a href="">テキスト</a>   
+                                <a href="">テキストテキスト</a>
+                                <a href="">テキストテキスト</a>
+                        </div>
+                    </div>
+                    <div class="footer-list">
+                        <div class="list-title">
+                            <p>会社案内</p>
+                        </div>
+                            <div class="list-items">
+                                <a href="">経営理念</a>   
+                                <a href="">会社概要</a>
+                                <a href="">強み</a>
+                        </div>
+                    </div>
+                    <div class="footer-list">
+                        <div class="list-title">
+                            <p>recruit</p>
+                        </div>
+                            <div class="list-items">
+                                <a href="">採用情報</a>   
+                                <a href="">社員インタビュー</a>
+                        </div>
+                    </div>
+                    <div class="footer-buttons">
+                        <button class="footer-entry-button">Entry &nbsp;&nbsp;&nbsp;→</button>
+                        <button class="footer-contact-button">Contact&nbsp;&nbsp;&nbsp;→</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p>プライバシーポリシー</p>
+                <p>©2025 Xrosspoint All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

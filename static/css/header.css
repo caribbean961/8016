@@ -1,0 +1,128 @@
+/* Navigation Bar */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 10;
+    background-color: transparent ;
+  }
+
+  .header-logo {
+    width: 214px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+  }
+  .navbar img {
+    height: 40px;
+    margin : 40px ;
+    margin: 40px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px 10px 10px 20px;
+    border-radius: 50px;
+    width:fit-content;
+    height: 60px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .contact-btn {
+    padding-inline: 20px;
+    padding-block: 10px;
+    background-color: #007BFF;
+    color: white !important;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Hero Section */
+  .hero {
+    position: relative;
+    height: 888px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+  }
+
+  /* Background Image */
+  .hero-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    /* width: 100%; */
+    /* background: url('/static/img/main1.png') center/cover no-repeat; */
+    z-index: 2;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: 888px;
+    margin-inline: auto 0;
+    object-fit: contain;
+  } 
+
+  /* Blue/Black Overlay Shape */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: calc(50% + 8px);
+    transform: translateX(-50%);
+    
+    /* inset: 0; */
+    /* background: linear-gradient(90deg, black 40%, transparent 40%); */
+    /* clip-path: polygon(0 0, 50% 0, 70% 50%, 50% 100%, 0 100%); */
+    z-index: 4;
+  }
+
+  .overlay  img {
+    object-fit: contain;
+  }
+  .overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #007BFF 40%, transparent 40%);
+    mix-blend-mode: multiply;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%, 70% 50%);
+    z-index: 3;
+  }
+
+  /* Text Content */
+  .hero-text {
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    transform: translateY(-50%);
+    /* max-width: 500px; */
+  }
+  .hero-text h1 {
+    font-size: 48px !important;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .hero-text p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+  }

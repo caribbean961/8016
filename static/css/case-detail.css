@@ -1,0 +1,117 @@
+.case-detail-back {
+    background-color: rgba(243, 244, 246, 1);
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    height: 228px;
+}
+
+.case-detail-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+.case-detail-container > a :first-child , .case-detail-container > a:nth-child(2) {
+    text-decoration: none;                                        
+    color: rgba(0, 104, 222, 1) ;
+}
+
+.case-detail-container > a:last-child {
+    color: black ;
+}
+
+/* section 1 */
+
+.case-detail-s1 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    padding-block: 80px;
+}
+
+.case-detail-s1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 60px;
+    width: 68%;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.case-detail-s1-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    width: 100%;
+}
+
+.case-detail-s1-title p:first-child {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(107, 114, 128, 1);
+}
+
+.case-detail-s1-title p:nth-child(2) {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgba(48, 48, 48, 1);
+}
+
+.case-detail-s1-title p:last-child {
+    font-size: 14px;
+    font-weight: 400;
+    padding-inline: 10px;
+    color: rgba(0, 104, 222, 1);
+    border: 1px solid rgba(0, 104, 222, 1);
+}
+
+.case-detail-s1-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.case-detail-s1-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 40px;
+}
+
+.case-detail-s1-article p:first-child {
+    font-size : 32px;
+    font-weight: 400;
+}
+
+.case-s1-detail-items-link {
+    text-decoration: none;
+    background-color: rgba(0, 104, 222, 1);
+    padding-inline: 50px;
+    padding-block: 10px;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 20px;
+    height: 60px;
+}
+
+.case-s1-detail-items-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}

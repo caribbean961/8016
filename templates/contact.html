@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block title %}Our Services - Corporate Site{% endblock %}
+
+{% block content %}
+<section class="case-back">
+    <div class="container">
+        <div class="case-title"container>
+            <p>CONTACT</p>
+            <p>お問い合わせ</p>
+            <div class="urls">
+                <a href="">ホーム</a> &nbsp;&nbsp;>&nbsp; &nbsp;<a href="">お問い合わせ</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-s1">
+    <div class="container">
+        <div class="contact-s1-content">
+             <!-- Left -->
+            <div class="contact-left">
+                <div class="contact-contact-title">Contact</div>
+                <div class="contact-subtitle">お問い合わせ</div>
+            </div>
+            
+            <!-- Right -->
+            <div class="contact-form">
+                <form action="#" method="post">
+                <label>会社名<span>*</span></label>
+                <input type="text" name="company" placeholder="株式会社〇〇">
+            
+                <label>担当者名<span>*</span></label>
+                <input type="text" name="name" placeholder="操電 太郎">
+            
+                <label>Email<span>*</span></label>
+                <input type="email" name="email" placeholder="mail@sample.jp">
+            
+                <label>カテゴリー<span>*</span></label>
+                <select name="category">
+                    <option>選択してください</option>
+                    <option>採用について</option>
+                    <option>サービスについて</option>
+                </select>
+            
+                <label>概要<span>*</span></label>
+                <textarea name="message" placeholder="お問い合わせの詳細を記入してください"></textarea>
+            
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="privacy"> <a href="#">プライバシーポリシー</a>に同意</label>
+                    <label><input type="checkbox" name="no-sales"> 商品の営業・売り込み・契約等に関するメールではない</label>
+                </div>
+            
+                <button type="submit" class="submit-btn">送信</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

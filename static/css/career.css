@@ -1,0 +1,369 @@
+.career-back {
+    background-image: url('/static/img/career-back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    position: relative;
+}
+
+.career-back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.career-back p {
+    background-color: #fff;
+    font-color: #0070f0;
+}
+
+.career-back .back-title {
+    font-size: 80px;
+    font-weight: 700;
+    color: #0070f0;
+    width: fit-content;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.career-back .back-desc {
+    font-size: 32px;
+    font-weight: 400;
+    color: #0070f0;
+    width: fit-content;
+    padding: 8px;
+}
+
+.career-container {
+    /* position: absolute; */
+    bottom: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding-bottom: 120px;
+}
+
+.page-url {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: end ;
+}
+
+.page-url a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Section 1 */
+.career-section1 {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: start;
+    align-items: start;
+}
+
+.career-s1-header {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgba(48,48,48,1)
+}
+
+.career-s1-items {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.career-s1-item {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #fff;
+    padding: 20px;
+    width: 508px;
+}
+
+.career-s1-item-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.career-s1-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(48,48,48,1)
+}
+
+/* Section 2 */
+
+.timeline {
+    position: relative;
+    padding-left: 50px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    width: 2px;
+    height: calc(100% - 240px);
+    background: #1976d2;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 40px;
+  }
+  .number {
+    background: white;
+    color: #1976d2;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    font-size: 14px;
+    border: 1px solid #1976d2;
+  }
+  .step img {
+    width: 370px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 60px;
+    border-radius: 5px;
+  }
+  .text {
+    color: #aaa;
+    font-size: 14px;
+  }
+
+  .step-right {
+    display: flex;
+    gap: 40px;
+  }
+
+  .step-right .text {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: 24px;
+  }
+
+  .career-s2-title {
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(48,48,48,1)
+  }
+
+  .career-s2-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(48,48,48,1)
+  }
+
+
+  /* Section 3 */
+  .career-section3 {
+    height: 680px;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .career-s3-header {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgba(48,48,48,1);
+    padding-inline: 20px;
+  }
+
+  .career-s3-items {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .career-s3-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 508px;
+  }
+
+  .career-s3-item-img img{
+    width: 508px;
+    height: 340px;
+  }
+
+  .career-s3-item-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(48,48,48,1)
+  }
+
+  /* Section 4 */
+  .career-section4 {
+    width: 100%;
+    height: 924px;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .career-s4-header {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgba(48,48,48,1);
+    padding-inline: 20px;
+  }
+
+  .career-s4-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .career-s4-items-row {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+  }
+
+  .career-s4-item {
+    width: 50%;
+    min-height: 300px;
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* width: 508px; */
+  }
+
+  .career-s4-item-text {
+    font-size: 32px;
+  }
+
+  .career-s4-text-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    align-items: center ;
+    gap: 10px;
+  }
+
+  .career-s4-text-row-item {
+    text-align: center;
+    min-width: 120px;
+    font-size: 18px;
+    padding-inline: 10px;
+    background-color: rgba(230, 240, 252, 1);
+    color: rgba(0, 104, 222, 1);
+  }
+
+  .career-s4-text-row-text {
+    line-height: 1.5;
+    font-size: 16px;
+    color: rgba(48,48,48,1);
+  }
+
+  /* Section 5 */
+  .career-section5 {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .career-s5-groups {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .career-s5-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .career-s5-group-header {
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(0,0,0,1);
+  }
+
+  .career-s5-group-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .career-s5-group-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .career-s5-group-item-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Section 6 */
+  .career-section6 {
+    width: 100%;
+    padding: 80px 0 160px 0;
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .career-section6 a {
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(0, 104, 222, 1);
+    padding-inline: 40px;
+    text-align: center;
+    background-color: rgba(0, 104, 222, 1);
+    color: #fff;
+    width: 33%;
+    height: 140px;
+    padding-block: 44px ;
+  }
+  

@@ -1,0 +1,124 @@
+.bpo-detail-back {
+    position: relative;
+    width: 100%;
+    height: 228px;
+    background-color: rgba(243, 244, 246, 1);
+}
+
+.page-urls {   
+    position: absolute;
+    bottom: 58px;
+    left: 160px;
+}
+
+.page-urls a {
+    font-size: 16px;
+}
+
+.page-urls a:first-child {
+    color: rgba(0, 104, 222, 1);
+}
+
+.page-urls a:nth-child(2) {
+    color: rgba(0, 104, 222, 1);
+}
+
+.page-urls a:last-child {
+    color : rgba(48, 48, 48, 1) ;
+}
+
+/* Section 1 */
+.bpo-detail-s1 {
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+.bpo-detail-s1-title p {
+    font-size: 80px;
+    font-weight: 400;
+    color: rgba(48, 48, 48, 1);
+}
+
+.bpo-detail-s1-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.bpo-detail-s1-content > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bpo-detail-s1-items {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin : 0 auto;
+    gap: 20px;
+}
+
+.bpo-detail-s1-items-title p {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgba(48, 48, 48, 1);
+}
+
+.bpo-detail-s1-items-row {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+
+.bpo-detail-s1-items-row-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.bpo-detail-s1-items-row-item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.bpo-detail-s1-items-row-item2 div {
+    width: 100px ;
+    height: 100px;
+    padding: 20px;
+}
+
+.bpo-detail-s1-content a {
+    font-size: 32px;
+    width: 508px ;
+    height: 140px;
+    background-color: rgba(0, 104, 222, 1);
+    color: #fff;
+    padding-inline: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bpo-detail-s1-content hr {
+    width: 80%;
+    height: 1px;
+    background-color: rgba(48, 48, 48, 1);
+}
+
+.detail-row {
+    margin-bottom: 60px;
+}
